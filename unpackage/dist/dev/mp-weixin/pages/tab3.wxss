@@ -1,0 +1,17 @@
+
+.plus-class {
+	background-color: #F5F7FA;
+	border: solid 1px #D8DCE6;
+}
+.minus-class {
+	background-color: #F5F7FA;
+	border: solid 1px #D8DCE6;
+}
+::-webkit-scrollbar {
+	display: inline-block !important;
+	width: 4px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #ED2251 !important;
+}
+

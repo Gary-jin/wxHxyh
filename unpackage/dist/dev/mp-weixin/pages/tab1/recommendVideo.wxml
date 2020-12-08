@@ -1,0 +1,1 @@
+<view class="H_100vh bg_000"><header-top vue-id="51ecddbd-1" title="推荐视频" showBack="true" bind:__l="__l"></header-top><view class="fixed WH_100 flex_colC" style="top:0;"><video class="H_100 W_100 object_fit_contain" id="myVideo" src="{{videoURL}}" controls="{{true}}"></video></view></view>

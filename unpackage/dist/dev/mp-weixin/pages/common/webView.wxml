@@ -1,0 +1,1 @@
+<view class="flex_colT flex_items_stretch"><web-view src="{{url}}"></web-view></view>

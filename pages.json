@@ -1,0 +1,362 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tab1",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"usingComponents": {
+					"van-overlay": "/wxcomponents/vant/dist/overlay/index",
+					"van-popup":"/wxcomponents/vant/dist/popup/index"
+				}
+			}
+		},
+		{
+			"path": "pages/tab2",
+			"style": {
+				"navigationBarTitleText": "浏览记录",
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+				  "van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+				  "van-overlay": "/wxcomponents/vant/dist/overlay/index",
+				  "van-popup":"/wxcomponents/vant/dist/popup/index",
+				  "van-stepper":"/wxcomponents/vant/dist/stepper/index"
+				}
+			}
+		},
+		{
+			"path": "pages/tab3",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+				  "van-overlay": "/wxcomponents/vant/dist/overlay/index",
+				  "van-stepper":"/wxcomponents/vant/dist/stepper/index",
+				  "van-dialog": "/wxcomponents/vant/dist/dialog/index",
+				  "van-popup":"/wxcomponents/vant/dist/popup/index"
+				}
+			}
+		},
+		{
+			"path": "pages/tab4",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "我的",
+				"usingComponents": {
+				  "van-popup":"/wxcomponents/vant/dist/popup/index"
+				}
+			}
+		},
+		{
+			"path": "pages/common/login"
+		},
+		{
+			"path": "pages/tab1/searchGood",
+			"style": {
+				"enablePullDownRefresh": false,
+				"usingComponents": {
+					"van-popup":"/wxcomponents/vant/dist/popup/index"
+				}
+			}
+
+		},
+		{
+			"path": "pages/common/service"
+		},
+		{
+			"path": "pages/tab1/recommendVideo"
+		},
+		{
+			"path":"pages/tab1/integralShop"
+		},
+		{
+			"path":"pages/tab1/integralDetail",
+			"style": {
+				"usingComponents": {
+					"van-overlay": "/wxcomponents/vant/dist/overlay/index",
+					"van-stepper":"/wxcomponents/vant/dist/stepper/index",
+					"van-popup":"/wxcomponents/vant/dist/popup/index",
+					"van-dialog": "/wxcomponents/vant/dist/dialog/index",
+					"van-skeleton":"/wxcomponents/vant/dist/skeleton/index"
+				}
+			}
+		},
+		{
+			"path": "pages/common/shopGoodInfo",
+			"style": {
+				"usingComponents": {
+					"van-overlay": "/wxcomponents/vant/dist/overlay/index",
+					"van-stepper":"/wxcomponents/vant/dist/stepper/index",
+					"van-popup":"/wxcomponents/vant/dist/popup/index",
+					"van-dialog": "/wxcomponents/vant/dist/dialog/index",
+					"van-skeleton":"/wxcomponents/vant/dist/skeleton/index"
+				}
+			}
+		},
+		{
+			"path":"pages/tab1/searchdrawingGood",
+			"style":{
+				"usingComponents":{
+					"van-field":"/wxcomponents/vant/dist/field/index",
+					"van-toast":"/wxcomponents/vant/dist/toast/index",
+					"van-dialog": "/wxcomponents/vant/dist/dialog/index",
+					"van-popup":"/wxcomponents/vant/dist/popup/index"
+				}	
+			}
+		},
+		{
+			"path":"pages/common/confirmOrder",
+			"style":{
+				"usingComponents":{
+					"van-field":"/wxcomponents/vant/dist/field/index",
+					"van-toast":"/wxcomponents/vant/dist/toast/index",
+					"van-dialog": "/wxcomponents/vant/dist/dialog/index"
+				}	
+			}
+		},
+		{
+			"path":"pages/tab1/integralOrder",
+			"style":{
+				"usingComponents":{
+					"van-field":"/wxcomponents/vant/dist/field/index",
+					"van-toast":"/wxcomponents/vant/dist/toast/index",
+					"van-dialog": "/wxcomponents/vant/dist/dialog/index"
+				}	
+			}
+		},
+		{
+			"path":"pages/common/shopSelectAddress",
+			"style":{
+				"usingComponents":{
+					"van-field":"/wxcomponents/vant/dist/field/index",
+					"van-radio": "/wxcomponents/vant/dist/radio/index",
+					"van-radio-group": "/wxcomponents/vant/dist/radio-group/index"
+				}	
+			}
+		},
+		{
+			"path":"pages/common/shopReceiveAddress",
+			"style":{
+				"usingComponents":{
+					"van-area":"/wxcomponents/vant/dist/area/index"
+				}
+			}
+		},
+		{
+			"path":"pages/tab4/setting"
+		},
+		{
+			"path":"pages/tab4/drawbalanceRecord"
+		},
+		{
+			"path":"pages/tab4/earningsDetail"
+		},
+		{
+			"path":"pages/tab4/drawBalance"
+		},
+		{
+			"path":"pages/tab4/drawbalanceExplain"
+		},
+		{
+			"path":"pages/tab4/managementAddSizer",
+			"style": {
+				"usingComponents": {
+
+					"van-checkbox": "/wxcomponents/vant/dist/checkbox/index",
+  				"van-checkbox-group": "/wxcomponents/vant/dist/checkbox-group/index"
+				}
+			}
+		},
+		{
+			"path":"pages/tab4/order",
+			"style": {
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+					"van-overlay": "/wxcomponents/vant/dist/overlay/index",
+					"van-stepper":"/wxcomponents/vant/dist/stepper/index",
+					"van-steps": "/wxcomponents/vant/dist/steps/index",
+					"van-dialog": "/wxcomponents/vant/dist/dialog/index",
+					"van-field":"/wxcomponents/vant/dist/field/index"
+				}
+			}
+		},
+		{
+			"path":"pages/tab4/orderInfo",
+			"style":{
+				"usingComponents": {
+					"van-overlay": "/wxcomponents/vant/dist/overlay/index",
+					"van-stepper":"/wxcomponents/vant/dist/stepper/index",
+					"van-steps": "/wxcomponents/vant/dist/steps/index",
+					"van-dialog": "/wxcomponents/vant/dist/dialog/index",
+					"van-field":"/wxcomponents/vant/dist/field/index",
+					"van-popup":"/wxcomponents/vant/dist/popup/index"
+				}
+			}
+		},
+		{
+			"path":"pages/tab4/orderEvaluate",
+			"style": {
+				"usingComponents": {
+					"van-rate": "/wxcomponents/vant/dist/rate/index",
+					"van-uploader":"/wxcomponents/vant/dist/uploader/index"
+				}
+			}
+		},
+		{
+			"path":"pages/tab4/myTeam"
+		},
+		{
+			"path":"pages/tab4/myCode"
+		},
+		{
+			"path":"pages/tab4/myCodept"
+		},
+		{
+			"path":"pages/tab4/management",
+			"style": {
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+					"van-popup":"/wxcomponents/vant/dist/popup/index",
+					"van-dialog": "/wxcomponents/vant/dist/dialog/index"
+				}
+			}
+		},
+		{
+			"path":"pages/tab4/managementZdDsz",
+			"style": {
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+					"van-popup":"/wxcomponents/vant/dist/popup/index",
+					"van-dialog": "/wxcomponents/vant/dist/dialog/index"
+				}
+			}
+		},
+		{
+			"path":"pages/tab4/managementGoodinfo"
+		},
+		{
+			"path":"pages/tab4/managementGoodinfoZdDsz"
+		},
+		{
+			"path":"pages/tab4/managementEditgood",
+			"style": {
+				"usingComponents": {
+					"van-switch": "/wxcomponents/vant/dist/switch/index",
+					"van-dialog": "/wxcomponents/vant/dist/dialog/index",
+					"van-skeleton":"/wxcomponents/vant/dist/skeleton/index"
+				}
+			}
+		},
+		{
+			"path":"pages/tab4/managementClassifygood"
+		},
+		{
+			"path":"pages/tab4/managementCarriage"
+		},
+		{
+			"path":"pages/tab4/managementAddgoodimg",
+			"style": {
+				"usingComponents": {
+					"van-uploader":"/wxcomponents/vant/dist/uploader/index",
+					"van-field":"/wxcomponents/vant/dist/field/index",
+					"van-checkbox":"/wxcomponents/vant/dist/checkbox/index",
+					"van-checkbox-group":"/wxcomponents/vant/dist/checkbox-group/index"
+				}
+			}
+		},
+		{
+			"path":"pages/tab4/managementSpecification",
+			"style": {
+				"usingComponents": {
+					"van-uploader":"/wxcomponents/vant/dist/uploader/index"
+				}
+			}
+		},
+		{
+			"path":"pages/common/bindMobile"
+		},
+		{
+			"path":"pages/common/shopGoodEvaluatelist",
+			"style": {
+				"usingComponents": {
+					"van-rate": "/wxcomponents/vant/dist/rate/index"
+				}
+			}
+		},
+		{
+			"path":"pages/common/articleInfo"
+		},
+		{
+			"path":"pages/common/webView"
+		},
+		{
+			"path":"pages/common/scanCode"
+		},
+		{
+			"path":"pages/tab4/officialAccounts"
+		},
+		{
+			"path":"pages/tab4/bindAliPay"
+		},
+		{
+			"path":"pages/tab4/integralRecord"
+		},
+		{
+			"path":"pages/tab1/newTimeTab",
+			"style": {
+				"enablePullDownRefresh": false,
+				"usingComponents": {
+					"van-popup":"/wxcomponents/vant/dist/popup/index"
+				}
+			}
+		},
+		{
+			"path":"pages/common/systemGoodEvaluatelist",
+			"style": {
+				"usingComponents": {
+					"van-rate": "/wxcomponents/vant/dist/rate/index"
+				}
+			}
+		},
+		{
+			"path":"pages/tab4/teamOrder"
+		},
+		{
+			"path":"pages/tab4/teamTodayOrder"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "#ffffff",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#ED2251",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/tab1",
+			"iconPath": "./static/image/tab_no_0.png",
+			"selectedIconPath": "./static/image/tab_ac_0.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/tab2",
+			"iconPath": "./static/image/tab_no_1.png",
+			"selectedIconPath": "./static/image/tab_ac_1.png",
+			"text": "浏览记录"
+		}, {
+			"pagePath": "pages/tab3",
+			"iconPath": "./static/image/tab_no_2.png",
+			"selectedIconPath": "./static/image/tab_ac_2.png",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/tab4",
+			"iconPath": "./static/image/tab_no_3.png",
+			"selectedIconPath": "./static/image/tab_ac_3.png",
+			"text": "我的"
+		}]
+	}
+}

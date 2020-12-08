@@ -1,0 +1,17 @@
+
+.qidaoBox{
+	width: 170rpx;
+	height: 45rpx;
+	background: url(https://qnyimages.hexieyihao.vip/qiandao.png) 0 0 no-repeat;
+	background-size: 170rpx 45rpx;
+	line-height: 45rpx;
+	/* padding-left: 10rpx; */
+}
+.jifenQP{
+	width: 120rpx;
+	height: 45rpx;
+	background: url(https://qnyimages.hexieyihao.vip/zengjai.png) 0 0 no-repeat;
+	background-size: 120rpx 45rpx;
+	line-height: 45rpx;
+}
+

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-overlay": "/wxcomponents/vant/dist/overlay/index",
+    "van-stepper": "/wxcomponents/vant/dist/stepper/index",
+    "van-popup": "/wxcomponents/vant/dist/popup/index",
+    "van-dialog": "/wxcomponents/vant/dist/dialog/index",
+    "van-skeleton": "/wxcomponents/vant/dist/skeleton/index",
+    "header-top": "/components/headerTop/headerTop"
+  }
+}

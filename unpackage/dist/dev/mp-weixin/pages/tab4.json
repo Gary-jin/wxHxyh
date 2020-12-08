@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "header-top": "/components/headerTop/headerTop",
+    "van-popup": "/wxcomponents/vant/dist/popup/index"
+  }
+}

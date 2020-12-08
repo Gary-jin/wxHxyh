@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "header-top": "/components/headerTop/headerTop",
+    "van-popup": "/wxcomponents/vant/dist/popup/index"
+  }
+}

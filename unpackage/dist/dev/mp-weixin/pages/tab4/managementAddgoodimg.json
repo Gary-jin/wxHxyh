@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "header-top": "/components/headerTop/headerTop",
+    "van-uploader": "/wxcomponents/vant/dist/uploader/index",
+    "van-field": "/wxcomponents/vant/dist/field/index",
+    "van-checkbox": "/wxcomponents/vant/dist/checkbox/index",
+    "van-checkbox-group": "/wxcomponents/vant/dist/checkbox-group/index"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "header-top": "/components/headerTop/headerTop",
+    "van-rate": "/wxcomponents/vant/dist/rate/index",
+    "van-uploader": "/wxcomponents/vant/dist/uploader/index"
+  }
+}

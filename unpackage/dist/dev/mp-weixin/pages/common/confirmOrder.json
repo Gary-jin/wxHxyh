@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "header-top": "/components/headerTop/headerTop",
+    "van-field": "/wxcomponents/vant/dist/field/index",
+    "van-toast": "/wxcomponents/vant/dist/toast/index",
+    "van-dialog": "/wxcomponents/vant/dist/dialog/index"
+  }
+}

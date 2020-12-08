@@ -1,0 +1,33 @@
+
+.van-icon{
+	font-size: 28px;
+}
+.van-uploader {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+.van-uploader__preview{
+	margin: 0 !important;
+}
+.van-uploader__preview {
+	position: relative;
+	/* margin: 0 8px 8px 0; */
+	cursor: pointer;
+	width: 33%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	margin-bottom: 16rpx !important;
+}
+.van-uploader__upload{
+	margin-left: 16rpx !important;
+	margin-bottom: 16rpx !important;
+}
+.van-icon{
+	left: -8rpx;
+}
+

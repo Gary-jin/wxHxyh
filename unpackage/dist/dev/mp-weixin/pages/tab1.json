@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "header-top": "/components/headerTop/headerTop",
+    "van-overlay": "/wxcomponents/vant/dist/overlay/index",
+    "van-popup": "/wxcomponents/vant/dist/popup/index",
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}

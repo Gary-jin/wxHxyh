@@ -1,0 +1,36 @@
+
+.name {
+	color: #000000 !important;
+}
+button::after {
+	border: none;
+}
+.plus-class {
+	background-color: #F5F7FA;
+	border: solid 1px #D8DCE6;
+}
+.minus-class {
+	background-color: #F5F7FA;
+	border: solid 1px #D8DCE6;
+}
+::-webkit-scrollbar {
+	display: inline-block !important;
+	width: 4px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #ED2251 !important;
+}
+.goTopBox{
+	position: fixed;
+	bottom: 260rpx;
+	right: 30rpx;
+	width: 80rpx;
+	height: 80rpx;
+}
+.goTopBox>image{
+	width: 100%;
+	height: 100%;
+}
+
+/* "disableScroll":true */
+

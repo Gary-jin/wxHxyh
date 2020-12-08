@@ -1,0 +1,20 @@
+
+.nav::-webkit-scrollbar {
+	/*隐藏滚动条*/
+	display: none;
+}
+.MT_ios_32 {
+	margin-top: 45vw;
+}
+
+/* popup  下拉页面 穿透 */
+.xxx{
+	/* top: 87px; */
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	z-index: 0;
+}
+

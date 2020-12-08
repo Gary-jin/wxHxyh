@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "浏览记录",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "header-top": "/components/headerTop/headerTop",
+    "van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+    "van-overlay": "/wxcomponents/vant/dist/overlay/index",
+    "van-popup": "/wxcomponents/vant/dist/popup/index",
+    "van-stepper": "/wxcomponents/vant/dist/stepper/index"
+  }
+}
