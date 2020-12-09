@@ -1,8 +1,8 @@
-const baseUrl = 'https://hexieyihao.vmall99.com/api/';    // 测试服
+// const baseUrl = 'https://hexieyihao.vmall99.com/api/';    // 测试服
 
 // const baseUrl = "http://192.168.0.125/index.php/api/"
 
-// const baseUrl = 'https://www.hexieyihao.vip/api/';			// 正式服
+const baseUrl = 'https://www.hexieyihao.vip/api/';			// 正式服
 
 // 登录
 let getUserinfo = baseUrl + 'Public/wechat_login'; 		// 获取用户信息

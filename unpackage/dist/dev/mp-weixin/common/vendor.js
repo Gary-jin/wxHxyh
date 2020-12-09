@@ -12578,11 +12578,11 @@ internalMixin(Vue);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var baseUrl = 'https://hexieyihao.vmall99.com/api/'; // 测试服
+// const baseUrl = 'https://hexieyihao.vmall99.com/api/';    // 测试服
 
 // const baseUrl = "http://192.168.0.125/index.php/api/"
 
-// const baseUrl = 'https://www.hexieyihao.vip/api/';			// 正式服
+var baseUrl = 'https://www.hexieyihao.vip/api/'; // 正式服
 
 // 登录
 var getUserinfo = baseUrl + 'Public/wechat_login'; // 获取用户信息

@@ -96,10 +96,10 @@
 					<view v-for="(item,index) in sizerList" :key="index">
 						<view class="flex_row_between MT_4 PB_2">
 							<view class="font_weight_bold fontS_16">{{item.trait_cate_name}}</view>
-							<view class="flex_rowL color_d9d9d9"  @click="skuall(index,item.list_show,item.child_list.length)">
+							<view class="flex_rowL color_d9d9d9"  >
 								<!-- <view style="width:340rpx;" class="text_overflow_1 textR" v-if="item.child_list.length>6">{{item.skuChange?item.skuChange:'全部'}}</view>
 								<view style="width:340rpx;" class="text_overflow_1 textR" v-else>{{item.skuChange?item.skuChange:''}}</view> -->
-								<view style="width:340rpx;" class="text_overflow_1 textR" >{{item.child_list.length>6?'点击更多':''}}</view>
+								<view style="width:340rpx;" @click="skuall(index,item.list_show,item.child_list.length)" class="text_overflow_1 textR" >{{item.child_list.length>6?'点击更多':''}}</view>
 								<view v-if="item.child_list.length>6" class="iconfont PL_2">{{item.list_show=='true'?'&#xe619;':'&#xe611;'}}</view>
 								<view v-else class="iconfont PL_2 color_fff">&#xe619;</view>
 							</view>
@@ -188,6 +188,7 @@
 				top_price :'' ,//  最高价
 				sizerIds: '' ,//筛选IDs type == 1
 				traitIds:'', //筛选IDs type ==2
+				trait_cate_id:'',
 
 				filtrate1Show:true, //综合颜色
 				filtrateIndex:0 , //价格 销量 颜色
@@ -233,7 +234,8 @@
 						'sort': that.sorts,
 						'imgUrl': encodeURIComponent(that.image),
 						selected_ids: this.sizerIds || ' ',
-						attr_select_ids: this.traitIds || ' '
+						attr_select_ids: this.traitIds || ' ',
+						trait_cate_id:this.listShow || ' '
 					}
 				} else {
 					param = {
@@ -241,7 +243,8 @@
 						'sort': that.sorts,
 						'imgUrl': encodeURIComponent(that.image),
 						selected_ids: this.sizerIds || ' ',
-						attr_select_ids: this.traitIds || ' '
+						attr_select_ids: this.traitIds || ' ',
+						trait_cate_id:this.listShow || ' '
 					}
 				}
 
@@ -397,6 +400,17 @@
 				} else if(length>6 && show == "false"){
 					this.$set(this.sizerList[num1], 'list_show', 'true')
 				}
+
+				let  xx = ''
+				this.sizerList.forEach((item,index) => {
+					if(item.list_show == 'false' && item.child_list.length>6){
+						xx = xx + item.trait_cate_id + ','
+					} 
+				})
+				xx = xx.slice(0,xx.length -1)
+				console.warn('list_show',xx)
+				this.listShow = xx
+				this.getGoodslist()
 			},
 			// 筛选sku 选中
 			sizerCha(num1,num2,name,show){
@@ -455,6 +469,7 @@
 				this.top_price = '';
 				this.sizerIds = '';
 				this.traitIds = ''
+				this.listShow = ''
 				this.sizerShow = false;
 				this.getGoodslist()
 			}
